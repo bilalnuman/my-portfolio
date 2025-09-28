@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { SITE } from "../data/site";
-const cv = "/Muhammad Bilal.pdf";
 
 export default function Navbar() {
   useEffect(() => {
@@ -33,7 +32,7 @@ export default function Navbar() {
           <a href="#contact" className="hover:text-brand-700 dark:hover:text-brand-100">Contact</a>
         </nav>
         <div className="flex items-center gap-3">
-          <a href={cv} download className="hidden sm:inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-brand-600 text-white hover:bg-brand-700 shadow-soft">Download CV</a>
+          <a href="/muhammad-bilal.pdf" download className="hidden sm:inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-brand-600 text-white hover:bg-brand-700 shadow-soft">Download CV</a>
           <a href="#contact" className="hidden sm:inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-brand-600 text-white hover:bg-brand-700 shadow-soft">Hire me</a>
           <ThemeToggle />
         </div>

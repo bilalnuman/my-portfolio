@@ -1,3 +1,5 @@
+const mallshark = "/mallshark.png";
+const docsify = "/docsify.png";
 export const SITE = {
   name: "Muhammad Bilal",
   email: "hello@example.com",
@@ -6,36 +8,28 @@ export const SITE = {
 
 export const PROJECTS = [
   {
-    title: "Realtime Kanban",
-    desc: "Collaborative board with drag & drop, WebSockets, optimistic UI.",
-    stack: ["React", "TypeScript", "Node", "WebSocket"],
-    live: "#",
-    code: "#",
-    caseStudy: "Built for a remote team. Event sourcing, presence, offline queue.",
+    thumbnail: mallshark,
+    title: "Mall Shark",
+    desc: "At MallShark, we are passionate about transforming the way people shop online. Our cutting-edge e-commerce platform is designed to provide an enjoyable and hassle-free shopping experience, catering to both buyers and sellers. With a mission to simplify the online buying and selling process, we aim to make e-commerce a breeze for everyone",
+    live: "https://mallshark.com",
   },
   {
-    title: "API Performance Dashboard",
-    desc: "Metrics, tracing, and alerts with role-based access.",
-    stack: ["Vite", "React", "Express", "Postgres"],
-    live: "#",
-    code: "#",
-    caseStudy: "BullMQ pipeline, TimescaleDB aggregations, alert rules.",
+     thumbnail: docsify,
+    title: "Docsify",
+    desc: "Untrained workers cause accidents and OSHA fines. Stop wasting hours creating training. Upload any manual → instantly generate tool-specific training using OSHA guidelines. Print, sign, and stay compliant in English or Spanish.",
+    live: "https://staging.docsify.io",
   },
   {
-    title: "E-commerce Starter",
+     thumbnail: mallshark,
+    title: "Watchlytics",
     desc: "Headless cart, Stripe checkout, product CMS integration.",
-    stack: ["Next.js", "Prisma", "Stripe"],
-    live: "#",
-    code: "#",
-    caseStudy: "SSR product pages, edge cache, webhook-driven fulfillment.",
+    live: "https://staging.watchlytics.io",
   },
   {
+     thumbnail: mallshark,
     title: "SaaS Billing Engine",
     desc: "Subscriptions, metered usage, dunning, and VAT invoices.",
-    stack: ["Node", "Nest", "Stripe", "Postgres"],
     live: "#",
-    code: "#",
-    caseStudy: "Double-entry ledger, proration, PDF invoices, tax rules.",
   },
 ];
 
