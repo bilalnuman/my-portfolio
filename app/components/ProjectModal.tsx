@@ -15,17 +15,17 @@ export default function ProjectModal({ projectIndex, onClose }:{
         <div className="flex items-start justify-between gap-4">
           <div>
             <h3 className="text-lg font-semibold">{p.title}</h3>
-            <p className="text-sm text-zinc-500">{p.stack.join(" · ")}</p>
+            {/* <p className="text-sm text-zinc-500">{p.stack.join(" · ")}</p> */}
           </div>
           <button onClick={onClose} className="h-9 w-9 grid place-items-center rounded-lg border border-zinc-200 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-900">✕</button>
         </div>
         <div className="mt-4 text-sm text-zinc-700 dark:text-zinc-300">
-          <p>{p.caseStudy}</p>
+          {/* <p>{p.caseStudy}</p>
           <ul className="list-disc pl-5 mt-3">
             <li>Tech: {p.stack.join(", ")}</li>
             <li>Role: Full-stack (architecture, FE, BE)</li>
             <li>Outcomes: perf ↑, shipping speed ↑, UX ↑</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
