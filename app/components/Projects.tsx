@@ -50,13 +50,14 @@ export default function Projects() {
           {PROJECTS.map((p, i) => (
             <article key={i} className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 shadow-soft overflow-hidden reveal">
               <div className="bg-zinc-100 dark:bg-zinc-900 grid place-items-center text-zinc-400">
-                <img src={p.thumbnail} alt=""className="w-full h-[250px] object-cover aspect-video"/>
+                <img src={p.thumbnail} alt=""className="w-full h-[220px]"/>
               </div>
               <div className="p-5">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="text-base font-semibold">{p.title}</h3>
                   <div className="flex gap-3 text-xs">
                     {p.live && <a className="text-brand-600 dark:text-brand-100 hover:underline" href={p.live} target="_blank">Live</a>}
+                    {p.current && <div className="text-brand-600 dark:text-brand-100">{p.current}</div>}
                   </div>
                 </div>
                 <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-300">{p.desc}</p>

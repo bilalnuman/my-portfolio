@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 
 
 export default function Page() {
@@ -16,7 +16,7 @@ export default function Page() {
         <Hero />
         <Services />
         <Projects />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <About />
         <ContactForm />
       </main>
