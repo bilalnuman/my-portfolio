@@ -48,6 +48,7 @@ export const PROJECTS: Project[] = [
     desc: "A multi-module enterprise platform unifying fragmented departmental tools — employee management (onboarding/offboarding, activity logs), project & delivery tracking, HR/attendance and leave, and payroll/expense/billing with financial dashboards. Delivered 30+ reusable, type-safe components enabling end-to-end employee lifecycle management, real-time attendance/expense/payroll views, and Excel-based reporting in a responsive, accessible UI.",
     stack: ["Next.js 16", "React 19", "TypeScript", "Zustand", "React Query", "Tailwind CSS", "Radix UI", "Axios"],
     current: "Digimark",
+    live: "https://planex-app.digimarkdevelopers.live",
     featured: true,
   },
   {
@@ -57,6 +58,7 @@ export const PROJECTS: Project[] = [
     desc: "Built the sales-facing portal of a multi-panel AI voice-agent SaaS, delivering dashboards, subscription plan/billing management, call-log workflows, and call analytics tailored to sales teams. Integrated REST and AI voice-agent APIs for authentication, billing, and real-time call analytics with a responsive, intuitive interface.",
     stack: ["React.js", "TypeScript", "Redux Toolkit", "RTK Query", "React Router", "Tailwind CSS"],
     current: "Digimark",
+    live: "https://sales.scintiacallflow.ai/",
     featured: true,
   },
   {
@@ -66,6 +68,7 @@ export const PROJECTS: Project[] = [
     desc: "A production-grade SaaS dashboard unifying inventory management, market-intelligence (price monitoring, movement analytics, AI-powered deal evaluation, priority alerts), sales & shipping, and financial reporting across 6+ marketplaces — eBay, Shopify, WooCommerce, Chrono24, Bezel, and Facebook. Built the frontend end-to-end: 240+ components, real-time notifications, Stripe checkout, and rich analytics.",
     stack: ["Next.js 15", "React 19", "TypeScript", "TanStack Query", "Tailwind CSS", "HeroUI", "Firebase", "Stripe"],
     current: "Zweidevs",
+    live: "https://watchlytics.io/",
     featured: true,
   },
   {
@@ -75,6 +78,7 @@ export const PROJECTS: Project[] = [
     desc: "An AI-powered web app that translates documents across formats — PDF, DOCX, and TXT — into multiple languages. Built the responsive frontend with file-upload workflows, dynamic rendering of translation results, and a clean, guided UI, integrating third-party AI translation APIs with format-aware upload and result-rendering pipelines.",
     stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "AI Translation APIs"],
     current: "Zweidevs",
+    live: "https://docsify.io/",
     featured: true,
   },
   {
