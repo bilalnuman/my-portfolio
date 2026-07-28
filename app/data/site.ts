@@ -32,6 +32,34 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    thumbnail: "/digimark.png",
+    title: "Digimark",
+    blurb: "Generative AI development company website with RAG-based chat system.",
+    desc: "Built the complete website for Digimark, a cutting-edge generative AI development company. The site showcases AI solutions and services with an integrated RAG (Retrieval-Augmented Generation) based chat system, enabling clients to interact with AI-powered features seamlessly. Delivered a modern, responsive interface that highlights the company's expertise in generative AI and machine learning across various industries.",
+    stack: ["Next.js", "React", "TypeScript", "RAG-based Chat System"],
+    live: "https://digimarkdevelopers.com/",
+    current: "Digimark",
+    featured: true,
+  },
+  {
+    thumbnail: "/planex.png",
+    title: "PlanEx",
+    blurb: "Enterprise workforce & operations management SaaS.",
+    desc: "A multi-module enterprise platform unifying fragmented departmental tools — employee management (onboarding/offboarding, activity logs), project & delivery tracking, HR/attendance and leave, and payroll/expense/billing with financial dashboards. Delivered 30+ reusable, type-safe components enabling end-to-end employee lifecycle management, real-time attendance/expense/payroll views, and Excel-based reporting in a responsive, accessible UI.",
+    stack: ["Next.js 16", "React 19", "TypeScript", "Zustand", "React Query", "Tailwind CSS", "Radix UI", "Axios"],
+    current: "Digimark",
+    featured: true,
+  },
+  {
+    thumbnail: "/scintia-callflow.png",
+    title: "Scintia Callflow",
+    blurb: "AI voice-agent SaaS platform with sales dashboard.",
+    desc: "Built the sales-facing portal of a multi-panel AI voice-agent SaaS, delivering dashboards, subscription plan/billing management, call-log workflows, and call analytics tailored to sales teams. Integrated REST and AI voice-agent APIs for authentication, billing, and real-time call analytics with a responsive, intuitive interface.",
+    stack: ["React.js", "TypeScript", "Redux Toolkit", "RTK Query", "React Router", "Tailwind CSS"],
+    current: "Digimark",
+    featured: true,
+  },
+  {
     thumbnail: "/watchlytics.jpg",
     title: "Watchlytics",
     blurb: "Multi-channel e-commerce & inventory management SaaS.",
