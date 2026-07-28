@@ -144,3 +144,4 @@ export const SERVICES = [
   { title: "AI-Integrated UIs", desc: "Interfaces built around LLM, voice-agent, and document-AI APIs — the frontend layer that makes AI usable." },
   { title: "Performance & Accessibility", desc: "Fast, WCAG-aligned, cross-browser apps: code splitting, lazy loading, SSR/SSG, and Core Web Vitals." },
 ];
+
