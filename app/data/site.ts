@@ -149,3 +149,4 @@ export const SERVICES = [
   { title: "Performance & Accessibility", desc: "Fast, WCAG-aligned, cross-browser apps: code splitting, lazy loading, SSR/SSG, and Core Web Vitals." },
 ];
 
+
