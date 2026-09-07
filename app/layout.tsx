@@ -29,6 +29,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       />
       <body className="bg-paper-100 text-ink-900 dark:bg-ink-950 dark:text-paper-100 font-sans antialiased selection:bg-iris-500/20 selection:text-iris-600">
         {children}
+        <script
+          src="https://glami-agent.vercel.app/glammate-widget.js"
+          data-business-id="1fadcadf-5ec8-4634-b890-039874f23d14"
+          domain-name="muhammadbilal.org"
+          async
+        ></script>
       </body>
     </html>
   );
