@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muhammad Bilal — Personal Portfolio
+
+A personal developer portfolio built with **Next.js, TypeScript, and Tailwind CSS**, showcasing my software engineering background, technical skills, and development work.
+
+## Overview
+
+This project serves as my professional online portfolio. It is designed to present my technical background and provide a central place to explore my work as a Full Stack Software Engineer.
+
+My focus while developing this project is clean implementation, maintainable code, responsive interfaces, and modern frontend development practices.
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework |
+| TypeScript | Static type checking |
+| Tailwind CSS | Utility-first styling |
+
+## Project Features
+
+> Add only features that are implemented in the current version.
+
+- [ ] Responsive user interface
+- [ ] Professional introduction section
+- [ ] Technical skills showcase
+- [ ] Project portfolio section
+- [ ] Professional experience section
+- [ ] Contact section
 
 ## Getting Started
 
-First, run the development server:-
--
+### Prerequisites
+
+- Node.js
+- npm (if using npm)
+
+### Installation
+
+Clone the repository:
+
 ```bash
-npm run dev-
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/bilalhuman/my-portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd my-portfolio
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open your browser:
 
-## Deploy on Vercel
+```text
+http://localhost:3000
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*Check package.json to confirm the package manager and available scripts before using these commands.*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+The project structure will be documented here after reviewing the actual source directories.
+
+## Screenshots
+
+Screenshots will be added here to demonstrate the actual user interface and responsive layouts.
+
+## Future Improvements
+
+- Publish a live production version.
+- Improve accessibility and responsive behavior.
+- Enhance search engine optimization.
+- Continue improving the user experience.
+
+## Author
+
+**Muhammad Bilal**  
+Senior Full Stack Software Engineer
+
+- LinkedIn: [Muhammad Bilal](https://www.linkedin.com/in/muhammad-bilal-eng/)
+- GitHub: [bilalhuman](https://github.com/bilalhuman)
+
+---
+
+*Built with a focus on clean code, maintainability, and continuous improvement.*
